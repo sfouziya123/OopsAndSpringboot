@@ -1,0 +1,35 @@
+4. Customized Itinerary:
+         Design a travel itinerary for a friend who has different preferences than you. How
+Would you ensure that your base plan (OOP) can be adapted to fit their needs (Design Principles)?
+
+Ans:-
+    /////Oops/////
+    
+    **Inheritance**:
+        You can create a base travel itinerary class with common attributes and methods. Then, create specialized subclasses for different types of travel plans, like adventurous or relaxation-focused itineraries, inheriting from the base class. This way, you can adapt the plan to different preferences by using the appropriate subclass. 
+
+    **Encapsulation**: 
+        You can encapsulate the details of each part of the itinerary, such as accommodation, activities, and transportation, within their respective classes. This way, you can customize or modify specific aspects without exposing the entire plan.
+
+    **Polymorphism**: 
+        You can use polymorphism to allow different types of activities or destinations to be seamlessly integrated into the itinerary. For instance, you can define a common interface for activities, and various activities can implement this interface. Your friend can then choose different activities that fit their preferences, and they will work within the plan. 
+
+    **Abstraction**: 
+        Abstraction allows you to represent the essential characteristics of the itinerary while hiding unnecessary details. You can abstract the plan to focus on key components, like sightseeing, dining, and lodging, without getting into specific names or details. This abstraction enables flexibility when customizing the plan based on your friend's preferences.
+
+    //////Principle///////
+
+    **Single Responsibility Principle**:
+        The Single Responsibility Principle means that each part of the travel plan should have just one clear job. This makes it easy to adjust or change one thing without messing up the whole plan. It's like having separate experts for each aspect of your trip who focus only on their specific area.
+
+    **Open/Closed Principle**:
+        The Open/Closed Principle means your travel plan should be like a map where you can add new places to visit or change existing ones without having to draw the entire map again. It's all about making updates without starting from scratch, just like adding new stops to a trip without redoing the whole plan.
+
+    **Liskov Substitution Principle**:
+        The Liskov Substitution Principle is like making sure that any option or choice in your travel plan can be swapped with another one without causing problems. Your friend should be able to change an activity or destination without messing up the whole plan. It's all about flexibility and smooth substitutions, just like replacing one item with another without issues.
+
+    **Interface Segregation Principle**: 
+        The Interface Segregation Principle is like having different menus for various parts of your travel plan. You have a menu for sightseeing, one for dining, and one for lodging. Your friend can pick and choose from these menus based on their preferences, making the plan adaptable. It's all about offering options that can be customized easily, just like ordering from different menus at a restaurant.
+
+    **Dependency Inversion Principle**:
+        The Dependency Inversion Principle is like asking for something you like without mentioning its name. Instead of saying, "I want to eat at 'Pizza Palace,'" you say, "I'm in the mood for pizza." This allows your friend to suggest different pizza places without you needing to know their names. It makes your plans flexible, as you focus on what you want, not specific details.

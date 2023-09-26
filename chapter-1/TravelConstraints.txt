@@ -1,0 +1,18 @@
+3. Travel Constraints: 
+        Consider restrictions or rules you might encounter on your journey, like luggage weight limits or visa requirements. How would these constraints translate to software design principles?
+
+Ans:-
+    **Single Responsibility Principle**:
+            ust as you need to ensure that each piece of luggage doesn't exceed weight limits, in software design, the Single Responsibility Principle means that each class or module should have only one job or responsibility. This ensures that your code remains manageable and doesn't become "overweight" with too many responsibilities.
+
+    **Open/Closed Principle**: 
+			In open/closed principle the Travel constraints like weight limits can change over time.In design principle  the code should be open for extension but closed for modification.When requirements change you can add new functionality without changing existing code.This principle helps maintain stability.
+	
+    **Liskov Substitution Principle**: 
+            If you have a big suitcase you should be able to use a smaller suitcase in its place without any problems. In software, it means that when you create new parts of your program they should work smoothly wherever you use the original parts without causing issues. It's all about things fitting together nicely.
+
+    **Interface Segregation Principle**: 
+            The Interface Segregation Principle is like packing only the things you need for a particular trip, rather than bringing everything you own. In software, it means creating smaller, specific sets of instructions for each part of your program, so you only include the actions that each part requires, just like you only pack what's necessary for your journey. It's about being efficient and not carrying unnecessary baggage.
+
+    **Dependency Inversion Principle**:
+            The Dependency Inversion Principle is like being flexible with your packing based on different travel requirements. In software, it means designing your code so that it can adapt to changes easily. Instead of relying on specific details, like suitcase brands, it focuses on more general concepts, like luggage capacity. This way, your code becomes more adaptable and flexible, just like adjusting your packing to suit different trips.

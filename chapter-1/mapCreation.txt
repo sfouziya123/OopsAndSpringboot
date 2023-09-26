@@ -1,0 +1,18 @@
+1. Map Creation: 
+Think of a real-world system, like a library or a shopping mall. How would you model it using OOP concepts? What are the objects, their attributes, and behaviors? How do they interact?
+
+Ans:-
+	In library the encapsulation,Inheritance,polymorphism and abstraction.so here 
+ 
+**Encapsulation**: 
+	In library “book” is like a locked and only the book itself knows what is inside and how to interact with it.Others can use the book,like borrowing and returning it but they don’t need to understand how it works inside.This keeps things safe and makes sure the book is used the right way.   
+
+**Inheritance**: 
+    In the library both library members and library staff are like different characters who need names and contact information.Instead of creating a separate list of these details for each character,we can use the “person” blueprint. It is like copying the important information from the blueprint into each character’s ID card. This way everyone has their names and contact information without writing again and again and also it is a smart work to save time and avoid repeating the same information.   
+
+**Polymorphism**:
+	In library Both library members and staff can perform actions like “borrow” and “return ” .We can write code that works for any person when it comes to these actions 
+
+**Abstraction**:
+	In the library the “book” class abstracts the details of how a book works. Users can borrow and return books without needing to know the inner workings of the books availability System.It’s like using a vending machine without knowing how it makes the snacks be visible.
+
