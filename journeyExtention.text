@@ -1,0 +1,8 @@
+2. Journey Extension:
+     Imagine extending your Swiss journey to neighboring countries. How would you adapt your travel checklist? Relate this to the concept of inheritance and polymorphism in software design?
+Ans:-
+	**Inheritance**: 
+        For example you have a basic travel checklist for Switzerland which includes items like warm clothing, a power adapter and Swiss Francs for currency. When you extend your trip to neighboring countries like France and Germany  you don't need to create a completely new checklist from scratch. Instead, you can "inherit" or use most of the items from your Swiss checklist, since these items are still relevant in the neighboring countries. For example, warm clothing is needed in Switzerland, France, and Germany, so you can inherit this item from your Swiss checklist.
+
+	**Polymorphism**: 
+        Polymorphism means that some items on your checklist can take on different forms or adapt to different situations. For instance your power adapter may need to change its shape to fit different types of sockets in Switzerland, France, or Germany. So, instead of having separate adapters for each country, you can have a single adapter that exhibits polymorphism by adapting to various socket shapes.
